@@ -1,0 +1,18 @@
+
+public class CoreJavaBrushUp1 {
+
+	public static void main(String[] args) {
+		int myNum = 5;
+		// float or double for numbers with decimals. E.g. 5.69;
+		String website = "Spre Rasarit";
+		char letter = 'r';
+		boolean myCard = true;
+		
+		System.out.println(myNum);
+		System.out.println(website);
+		System.out.println(letter);
+		System.out.println(myCard);
+		System.out.println(myNum + " is the value stored in the myNum variable" );
+	}
+
+}

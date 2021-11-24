@@ -1,0 +1,31 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class SelIntroduction implements WebDriver {
+
+	public static void main(String[] args) {
+
+		// Invoking the Browser
+		// Chrome - ChromeDriver -> Methods
+		// WebDriver methods + class methods 
+	    // ChromeDriver driver = new ChromeDriver() - might access some class methods that are not present in other browsers
+		
+		// chromedriver.exe -> Chrome browser
+		
+		//System.setProperty("webdriver.chrome.driver", "C:/Users/mdandarila/mywork/chromedriver_win32/chromedriver.exe");
+		//WebDriver driver = new ChromeDriver();
+		
+		
+		//Firefox Launch
+		System.setProperty("webdriver.gecko.driver", "C:/Users/mdandarila/mywork/geckodriver-v0.30.0-win64/geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("http://www.sprerasarit.ro");
+		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getTitle());
+		driver.close();
+		//driver.quit() - closing all the instances openned by Selenium during the testing 
+	}
+
+}

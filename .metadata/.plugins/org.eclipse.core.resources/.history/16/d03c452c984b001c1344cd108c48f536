@@ -1,0 +1,14 @@
+
+public class CoreJavaBrushUp1 {
+
+	public static void main(String[] args) {
+		
+		int myNum = 5;
+		String website = "Spre Rasarit";
+		char letter = 'r';
+		// float or double for numbers with decimals. E.g. 5.69;
+		System.out.println(myNum);
+		boolean myCard = true;
+	}
+
+}

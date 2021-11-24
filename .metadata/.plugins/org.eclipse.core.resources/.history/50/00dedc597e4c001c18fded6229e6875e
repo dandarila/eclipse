@@ -1,0 +1,15 @@
+
+public class CoreJavaBrushUp3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//strings are an object in JAVA 
+		
+		String myName = "Marian Dandarila";
+		String myName1 = "Marian Dandarila";
+		
+		System.out.println(myName +  myName1);
+	}
+
+}
