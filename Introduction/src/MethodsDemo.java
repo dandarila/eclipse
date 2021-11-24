@@ -6,6 +6,7 @@ public class MethodsDemo {
 		MethodsDemo d = new MethodsDemo();
 		String name = d.getData();
 		String name2 = getLoserData();
+		String name3 = getLosessssssrData();
 		System.out.println(name);
 	}
 	
@@ -18,6 +19,12 @@ public class MethodsDemo {
 	public static String getLoserData() 
 	{
 		System.out.println("yuhdwesfdsduhuhu");
+		return "Relu";
+	}
+	
+	public static String getLosessssssrData() 
+	{
+		System.out.println("sadhskhdkjashfkjdas");
 		return "Relu";
 	}
 }

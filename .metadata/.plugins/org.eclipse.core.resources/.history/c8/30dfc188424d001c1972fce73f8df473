@@ -1,0 +1,30 @@
+
+public class MethodsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MethodsDemo d = new MethodsDemo();
+		String name = d.getData();
+		String name2 = getLoserData();
+		String name3 = getLosessssssrData();
+		System.out.println(name);
+	}
+	
+	public String getData() 
+		{
+			System.out.println("yuhdsfaaaaaaaaaaaaauhuhuuhuhu");
+			return "Relu";
+		}
+
+	public static String getLoserData() 
+	{
+		System.out.println("yuhdwesfdsduhuhu");
+		return "Relu";
+	}
+	
+	public static String getLosessssssrData() 
+	{
+		System.out.println("yuhdwesfdsduhuhu");
+		return "Relu";
+	}
+}
